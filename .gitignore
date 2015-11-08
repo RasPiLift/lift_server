@@ -1,0 +1,8 @@
+# Ignore the build dir
+build
+
+# Ignore config file
+config.xml
+
+# Ignore lift executable
+lift

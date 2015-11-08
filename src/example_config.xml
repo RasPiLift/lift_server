@@ -1,0 +1,40 @@
+<lift>
+	<jsonserver>
+		<port>8383</port>
+	</jsonserver>
+	<!-- Set the levels, order: first as lowest level to last as highest level -->
+	<levels>
+		<level>
+			<label>U</label>
+			<sensor>0</sensor>
+			<led>4</led>
+		</level>
+		<level>
+			<label>E</label>
+			<sensor>1</sensor>
+			<led>5</led>
+		</level>
+		<level>
+			<label>1</label>
+			<sensor>2</sensor>
+			<led>6</led>
+		</level>
+		<level>
+			<label>2</label>
+			<sensor>3</sensor>
+			<led>7</led>
+		</level>
+	</levels>
+	<motor>
+		<!-- Set the two pins to control the motor -->
+		<pins>
+			<pin1>8</pin1>
+			<pin2>9</pin2>
+		</pins>
+		<!-- Define default pwm value and range at program startup -->
+		<pwm>
+			<value>50</value>
+			<range>100</range>
+		</pwm>
+	</motor>
+</lift>
